@@ -8,6 +8,9 @@
 * make it executable: "$ chmod 755 /usr/bin/wkhtmltoimage"
 * call it to see if it works: "$ wkhtmltoimage"
 
+Optional:
+* Install some fonts: "$ apt-get install xfonts-scalable msttcorefonts"
+
 ## Step 2: binary does not run
 * is X11 installed on Linux? run "apt-get install x11-common" if not
 * is your server 64bit? try installing the 32bit libs via "apt-get install ia32-libs"
